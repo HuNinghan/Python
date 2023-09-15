@@ -67,6 +67,7 @@ text.get("1.0", END)
 text.pack()
 
 
+
 # Spinbox
 
 def spinbox_used():
@@ -89,6 +90,7 @@ scale.pack()
 
 
 # checkbutton
+
 def checkbutton_used():
     checked_state.get()
 
