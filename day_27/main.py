@@ -1,4 +1,5 @@
 import tkinter
+from tkinter import *
 import turtle
 
 # Open window
@@ -13,7 +14,6 @@ window.minsize(width=500, height=300)
 
 my_label = tkinter.Label(text="I Am a Label", font=("Arial", 24, "bold"))
 my_label.pack()
-# my_label.pack(side="left", expand=True) 
 
 
 
@@ -29,12 +29,14 @@ my_label.pack()
 my_label.config(text = "New Text")
 # my_label["text"] = "New text"
 
+# add space around
+my_label.config(padx=50, pady=50)
+# adjust position
+# my_label.grid(column=0, row=0)
+
+
 
 # Button
-
-button = Button(text = "Click Me", command=button_clicked)
-button.pack()
-
 
 def button_clicked():
     print("I got clicked")
@@ -45,13 +47,20 @@ def button_clicked():
     else:
         my_label.config(text="Button Got Clicked")
 
+button = Button(text = "Click Me", command=button_clicked)
+button.pack()
+# can not use grid and pack at the same time
+# button.grid(column=1, row=1)
+
+
     
 
 # Entry box
 
 input = Entry(width=10)
 input.pack()
-# input.get()
+# can not use grid and pack at the same time
+# input.grid(column=2, row=2)
 
 
 
@@ -109,7 +118,7 @@ def radio_used():
 # a variable to hold on to which radio button value is checked. Only one button can be check at one time
 radio_state = IntVar()
 radiobutton1 = Radiobutton(text="Option1", value=1, variable=radio_state, command=radio_used)
-radiobutton2 = Radiobutton(text="Option2", value=1, variable=radio_state, command=radio_used)
+radiobutton2 = Radiobutton(text="Option2", value=2, variable=radio_state, command=radio_used)
 radiobutton1.pack()
 radiobutton2.pack()
 
@@ -124,7 +133,7 @@ listbox = Listbox(height=4)
 fruits = ["apple", "pear", "orange", "banana"]
 for item in fruits:
         listbox.insert(fruits.index(item), item)
-listbox.bind("<<ListboxSelect", listbox_used)
+listbox.bind("ListboxSelect", listbox_used)
 listbox.pack()
 
 
