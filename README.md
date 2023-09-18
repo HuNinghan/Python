@@ -11,12 +11,16 @@
     project.py:
         Create a mile to kilometers converter program.
 
-## day_54:
+## day_54_56:
     Key skills: 
         Python syntax: decorator functions
         Backend framework: Flask
+        Frontend language: html
     main.py:
         Create a web server using Flask.
         Flask quick start: https://flask.palletsprojects.com/en/2.3.x/quickstart/
     playground.py:
-        Create and apply decorator functions
+        Create and apply decorator functions.
+    server.py:
+        Create a personal site web server rendering html using Flask.
+    
