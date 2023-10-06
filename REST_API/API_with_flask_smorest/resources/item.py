@@ -12,7 +12,7 @@ blp = Blueprint("items", __name__, description="Operations on stores")
 
 @blp.route("/store/<string:item_id>") # endpoint is the same for the methods below
 class Item(MethodView):
-    @blp.response(200, ItemSchema) # the main response, which will be returned through ItemSchema
+    @blp.response(200, ItemSchema) # this is the main response, which will be returned through ItemSchema
     def get(self, item_id):
         try:
             return items[item_id]
