@@ -6,7 +6,7 @@ def add(*args):
     return sum
 
 
-print(add(3, 5, 6, 12, 55, 4))
+add(3, 5, 6, 12, 55, 4)
 # collect all inputs into a tuple
 
 

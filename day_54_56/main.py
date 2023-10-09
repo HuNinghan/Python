@@ -1,4 +1,4 @@
-from flask import flask
+from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
@@ -12,7 +12,7 @@ def bye():
 
 
 @app.route('/username/<name>/<int:number>')
-def greet(name):
+def greet(name, number):
     return f"Hi {name}, you are {number} years old."
 
 

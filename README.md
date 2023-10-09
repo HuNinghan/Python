@@ -24,3 +24,10 @@
     server.py:
         Create a personal site web server rendering html using Flask.
     
+## REST_API:
+    Key skills:
+        build API with Flask
+    folder - API_with_flask_smorest:
+
+    folder - API_with_sqlalchemy:
+    
