@@ -23,7 +23,13 @@
         Create and apply decorator functions.
     server.py:
         Create a personal site web server rendering html using Flask.
-    
+
+## Spark:
+    Key skills:
+        big data analysis using Spark
+    cheatsheet.ipynb:
+        common functions for data processing
+
 ## REST_API:
     Key skills:
         build API with Flask
