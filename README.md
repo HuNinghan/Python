@@ -29,6 +29,8 @@
         big data analysis using Spark
     cheatsheet.ipynb:
         common functions for data processing
+    tree_based_models.ipynb:
+        notebook performing 3 tree based models with evaluation and confusion matrix
 
 ## REST_API:
     Key skills:
