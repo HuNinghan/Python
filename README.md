@@ -39,3 +39,7 @@
 
     folder - API_with_sqlalchemy:
     
+## project_code_structure
+    Key skills:
+        how to call functions from files in other foloders
+        
