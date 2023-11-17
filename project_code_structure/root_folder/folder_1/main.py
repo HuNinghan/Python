@@ -7,6 +7,9 @@ def main_func():
 
 
 if __name__ == '__main__':
-    main_func()
+    input = input("Plz insert 1: ")
+
+    if input == '1':
+        main_func()
 
 # python -m folder_1.main  
