@@ -1,0 +1,50 @@
+https://developer.mozilla.org/en/docs/Web/CSS/position
+
+position: static; 
+
+position: relative; 
+
+position: absolute; 
+
+position: fixed;
+
+SOURCE
+
+body{
+    height:2000px;
+}
+
+header {
+    position:static;
+    top:20px;
+    left:20px;
+    background-color:beige;
+}
+
+span {
+
+}
+
+#mySection1 {
+    position:absolute;
+    top:20px;
+    left:20px;
+    background-color: red;
+
+}
+
+#mySection2 {
+    position:fixed;
+    top:10px;
+    left:10px;
+    background-color: blue;
+
+}
+
+#mySection3 {
+    position:relative;
+    top:0px;
+    left:0px;
+    background-color: rgba(255,0,0,0.5);
+    z-index: 100;
+}

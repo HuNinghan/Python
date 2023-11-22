@@ -1,0 +1,34 @@
+https://www.w3.org/wiki/HTML_forms_-_the_basics   
+
+<form action="index.html" method="post">
+        First Name
+        <input type="text" name="firstName" value="Mike">
+        <br>
+        <textarea name="bigText"></textarea>
+        <br>
+        <select name="mySel">
+            <option value="1">One</option>
+            <option value="2">two</option>
+            <option value="3">Three</option>
+        </select>
+        <BR>
+        <input type="checkbox" name="cb1" value="1">check One
+        <input type="checkbox" name="cb2" value="2">Check two
+        <br>
+        <input type="file" name="myFile">
+        <BR> Email
+        <input type="email" name="email">
+        <br> Password
+        <input type="password" name="pw">
+        <br> Number
+        <input type="number" name="num">
+        <br> Color
+        <input type="color" name="clr">
+        <br> Date
+        <input type="date" name="datebox">
+        <br> Radio
+        <input type="radio" name="radio1" value="one">
+        <input type="radio" name="radio1" value="two">
+        <br>
+        <input type="submit" value="Please Submit me">
+    </form>

@@ -1,0 +1,28 @@
+header{
+    /*
+    background-image: url("http://lorempixel.com/g/400/200/");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: bottom right;
+    background-color: #FFDD00;
+    */
+    background: url("http://lorempixel.com/g/400/200/") no-repeat bottom right/80% red;
+    height:250px;
+}
+nav{
+    background-color: #F60;
+}
+#mySection1{
+    background-color: rgb(255,0,255);
+}
+#mySection2{
+    background-color: rgba(255,0,0,0.5);
+}
+
+Backgrounds
+
+https://developer.mozilla.org/en/docs/Web/CSS/background
+
+Web Colors
+
+https://en.wikipedia.org/wiki/Web_colors

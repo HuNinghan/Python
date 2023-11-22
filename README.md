@@ -42,4 +42,6 @@
 ## project_code_structure
     Key skills:
         how to call functions from files in other foloders
-        
+
+## html_css_examples
+    Examples of HTML and CSS codes

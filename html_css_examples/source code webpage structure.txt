@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML CSS Course</title>
+    <style>
+        div{
+            border:1px solid black;
+            margin:10px;
+        }
+        span{
+            background-color:aqua;
+        }
+    </style>
+</head>
+
+<body>
+<header>My Company<BR>slogan</header>
+
+<nav>Home nav...</nav>
+    
+<section>Lorem ipsum dolor sit amet, <span>consectetuer</span> adipiscing elit. Aenean commodo ligula eget dolor.</section>
+
+<aside>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</aside>
+
+<footer>Donec quam felis, ultricies nec, <span>pellentesque</span> eu, pretium quis, sem. Nulla consequat massa quis enim.</footer>
+
+</body>
+
+</html>

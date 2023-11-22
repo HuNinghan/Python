@@ -1,0 +1,63 @@
+***HTML PAGE ***
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML CSS Course</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+<header>My Company<BR>slogan</header>
+
+<nav class="myClass">Home nav...</nav>
+    
+<section id="mySection1" >Lorem ipsum dolor sit amet, <span class="myClass">consectetuer</span> adipiscing elit. Aenean commodo ligula eget dolor.</section>
+
+<section id="mySection2">Lorem ipsum dolor sit amet, <span class="myClass">consectetuer</span> adipiscing elit. Aenean commodo ligula eget dolor.</section>    
+
+<aside >Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</aside>
+
+<footer class="myClass">Donec quam felis, ultricies nec, <span >pellentesque</span> eu, pretium quis, sem. Nulla consequat massa quis enim.</footer>
+
+</body>
+
+</html>
+
+
+
+***STLYE.CSS***
+
+.myClass {
+    background-color: bisque;
+}
+
+#mySection1 {
+    background-color: chocolate;
+}
+
+#mySection2 {
+    background-color: crimson;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+div {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+span {
+    background-color: aqua;
+}
+
+Further Reading CSS
+Reference
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+https://en.wikipedia.org/wiki/Cascading_Style_Sheets

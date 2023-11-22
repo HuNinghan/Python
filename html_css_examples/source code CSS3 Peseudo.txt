@@ -1,0 +1,44 @@
+Pseudo-classes
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+Pseudo-elements
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+body{
+    height:2000px;
+}
+
+span::before {
+    content:" hello";
+    color:chartreuse;
+    background-color:black;
+}
+
+header {
+    background-color:aquamarine;
+}
+header:hover{
+    background-color:chartreuse;
+}
+
+span:last-child {
+    background-color:bisque;
+}
+
+li:nth-child(5){
+    color:red;
+}
+
+#mySection1 {
+
+}
+
+#mySection2 {
+
+}
+
+#mySection3 {
+
+}
