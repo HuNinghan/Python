@@ -29,8 +29,8 @@
         big data analysis using Spark
     cheatsheet.ipynb:
         common functions for data processing
-    tree_based_models.ipynb:
-        notebook performing 3 tree based models with evaluation and confusion matrix
+    Python-and-Spark-for-Big-Data-master folder:
+        spark dataset basics and common ML in spark
 
 ## REST_API:
     Key skills:
