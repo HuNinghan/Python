@@ -50,3 +50,6 @@
     React introduction: https://react.dev/blog/2023/03/16/introducing-react-dev
     GitHub for creating react app: https://github.com/facebook/create-react-app
     ReactHook : functions that can 'hook' to the classes in React
+
+## PL_SQL
+    PL/SQL is the Oracle Procedural Language extension of SQL. A PL/SQL program can have both SQL statements and procedural statements. In the PL/SQL program, the SQL statements are used to access sets of data stored in a database, while the procedural statements are used to process individual piece of data and control the program flow.
